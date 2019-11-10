@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.opencv.cultoftheunicorn.marvel"
+    android:installLocation="auto"
+    android:versionCode="24"
+    android:versionName="2.4">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/lightbulb"
+        android:label="boss_coming"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="cultoftheunicorn.marvel.MainActivity"
+            android:label="boss_coming">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cultoftheunicorn.marvel.Recognize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cultoftheunicorn.marvel.Training"
+            android:label="Training"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cultoftheunicorn.marvel.NameActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <!--android:screenOrientation="portrait"-->
+    </application>
+
+</manifest>

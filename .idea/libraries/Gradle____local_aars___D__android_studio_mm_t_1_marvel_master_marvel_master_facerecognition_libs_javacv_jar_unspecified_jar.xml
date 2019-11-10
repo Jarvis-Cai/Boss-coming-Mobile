@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:D.\android_studio\mm_t\1\marvel-master\marvel-master\facerecognition\libs\javacv.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/facerecognition/libs/javacv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
