@@ -6,6 +6,7 @@ Boss-coming 是基于手机端人脸识别技术以及UDP通信所实现的一�
 * [https://github.com/Jarvis-Cai/Boss-coming](https://github.com/Jarvis-Cai/Boss-coming)
 
 ### User Guide:
+手机端APP：
 1. 打开主页面
     ![主页面](pic/1.jpg)
     该页面下会打开你的摄像头并显示到界面左侧，右侧含有三个主要功能按钮，最下边的输入框用于输入与你的电脑设备建立连接的IP地址。
@@ -21,6 +22,8 @@ Boss-coming 是基于手机端人脸识别技术以及UDP通信所实现的一�
     ![检测界面](pic/4.png)
     测试连接成功后，点击 “Scan” 开启检测。当检测到目标（Boss）时，将会发送警报信息到PC机当中，警报结果可使用"boss-coming.exe"来获取。在开始检测过程中，为了保持隐秘性，可以点击 “Test” 按钮，将屏幕进行遮掩，遮掩效果如下图，此时在遮掩界面中点击遮眼布可以去除遮掩布。
     ![遮掩效果](pic/5.jpg)
+电脑端软件：
+![遮掩效果](pic/6.png)
 
 ### 工程使用：
 * 下载并通过Android studio打开本项目文件
