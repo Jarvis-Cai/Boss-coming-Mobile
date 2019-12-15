@@ -26,7 +26,7 @@ Boss-coming 是基于手机端人脸识别技术以及UDP通信所实现的一�
         ![遮掩效果](pic/5.jpg "遮掩效果")   
 
 * 电脑端软件：   
-    ![遮掩效果](pic/6.png "遮掩效果")  
+    ![电脑端软件界面](pic/6.png "电脑端软件界面")  
     1. 当前电脑端软件提供的切换效果包括三个功能，包括PDF reader，Chrome浏览器，以及
     window自带的消息提示窗。
     ![Windows弹窗效果](pic/7.png "Windows弹窗效果")
