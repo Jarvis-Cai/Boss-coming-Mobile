@@ -17,7 +17,7 @@ Boss-coming 是基于手机端人脸识别技术以及UDP通信所实现的一�
         ![发送UDP测试](pic/3.jpg "发送UDP测试")
         在完成输入IP地址之后点击 “Test” ，IP地址的获取以及测试结果报告可通过使用releases中boss-coming.exe工程文件来测试使用。
 
-        !["boss-coming"界面图](pic/6.png ""boss-coming"界面图")
+        !["boss-coming"界面图](pic/6.png "boss-coming"界面图")
 
         boss-coming界面如图所示
     4.  检测开始：
